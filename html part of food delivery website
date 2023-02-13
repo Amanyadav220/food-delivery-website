@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and(max-width:1170px)" href="phone.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="logo">
+            <img src="https://th.bing.com/th?id=OIP.fI94-Tb2Jba0CKogcVvhOwAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="aman">
+        </div>
+        <ul>
+            <div class="a1">
+                <li><a href="#b1">Home</a></li>
+                <li><a href="#c1">Services</a></li>
+                <li><a href="#client-section">Our CLients</a></li>
+                <li><a href="#contact">Contact US</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="b1" id="b1">
+        <h1 class="text1">Welcome To My Online Food Website</h1>
+        <div class="b2">
+            Where food is Made with
+            <div class="b3">Love</div>
+        </div>
+        <div class="heart">&#x2665;</div>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis atque sequi mollitia.
+            Debitis in, quo
+            amet, iure praesentium fugiat est quod ab magni enim obcaecati, dolor hic saepe? Ex!</p>
+        <button class="btn">Order Now!!</button>
+    </div>
+    <!-- <hr> -->
+    <div class="c1" id="c1">
+        <h1>
+            Our Services
+        </h1>
+        <div class="c2" id="box">
+            <img src="https://th.bing.com/th?id=OIP.z_ilCv9sIs4AnOpF_9GB5AHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="">
+            <h2>Food Ordering</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, optio dolor nostrum esse quas nulla amet
+                facilis. Eveniet, aliquid laborum accusamus at repudiandae nihil, labore numquam cum fuga illum
+                obcaecati!</p>
+        </div>
+    </div>
+    <div class="c2" id="box2">
+        <img src="https://th.bing.com/th?id=OIP.2oMCNeriP8cjix5BawN-mgHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+            alt="">
+        <h2>Bulk Ordering</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, optio dolor nostrum esse quas nulla amet
+            facilis. Eveniet, aliquid laborum accusamus at repudiandae nihil, labore numquam cum fuga illum obcaecati!
+        </p>
+    </div>
+    </div>
+    <div class="c2" id="box3">
+        <img src="https://th.bing.com/th?id=OIP.6WoETIqwnbMl619k8kJAgQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+            alt="">
+        <h2>Food Delivering</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, optio dolor nostrum esse quas nulla amet
+            facilis. Eveniet, aliquid laborum accusamus at repudiandae nihil, labore numquam cum fuga illum obcaecati!
+        </p>
+    </div>
+    </div>
+    <hr>
+    <section id="client-section">
+        <h1 class="h-primary center ">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://th.bing.com/th?id=OIP.sWSPghjzvfUYfQpqXbo37wHaIo&w=231&h=269&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="0">
+            </div>
+            <div class="client-item">
+                <img src="https://th.bing.com/th?id=OIP.QyV8cZptm8wZQy9b1GlXjAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="1">
+
+            </div>
+            <div class="client-item">
+                <img src="https://th.bing.com/th?id=OIP.8nszNxqsW6zF0vfnYWTC3QHaHg&w=248&h=251&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="2">
+
+            </div>
+            <div class="client-item">
+                <img src="https://th.bing.com/th?id=OIP.Yvwe0PnQIDLi2eb2owiU6wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="3">
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center"> Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter your name"><br><br>
+                    <input type="email" name="email" placeholder="Enter your email"><br><br>
+                    <input type="number" name="mobile" placeholder="Enter mobile no"><br>
+                    <button class="btn">Submit Now</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            <a href="#">Terms and Conditions<br>
+            </a>
+            Copyright &copy; 2023 MyOnlineMeals.In<br>
+            Developed and maintained by Aman Yadav
+        </div>
+    </footer>
+</body>
+
+</html>
