@@ -1,3 +1,2 @@
 # food-delivery-website
-rger
-rgrwgwr
+This is a Food Delivery Website.
